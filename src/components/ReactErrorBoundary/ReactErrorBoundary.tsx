@@ -19,7 +19,7 @@ const Bomb = ({ username }: any) => {
     return <p>{`Hi ${username}`}</p>;
 };
 
-const HandleErrorsWithReactErrorBoundary = () => {
+const ReactErrorBoundary = () => {
     const [username, setUsername] = useState('');
     const usernameRef = useRef(null);
 
@@ -49,4 +49,4 @@ const HandleErrorsWithReactErrorBoundary = () => {
     );
 };
 
-export default HandleErrorsWithReactErrorBoundary;
+export default ReactErrorBoundary;
